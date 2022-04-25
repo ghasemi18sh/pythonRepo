@@ -8,7 +8,7 @@ class Kasr:
     
     def sade_sazi(self):
         bmm = math.gcd(self.soorat , self.makhraj)
-        if bmm != 0:
+        if bmm != 0:1
             self.soorat = self.soorat // bmm
             self.makhraj = self.makhraj // bmm
 
