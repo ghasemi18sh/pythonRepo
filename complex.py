@@ -24,7 +24,7 @@ class complex :
     def multiple(self, second):
         result=complex()
         result.x= self.x * second.x - self.y * second.y
-        result.y= self.x * second.y - self.y * second.x
+        result.y= self.x * second.y + self.y * second.x
         return result
 
 
